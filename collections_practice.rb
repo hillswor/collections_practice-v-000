@@ -39,6 +39,4 @@ def sum_array(array)
   integer_array = Array.new
   array.each {|index| index.is_a?(Integer)}
     index << integer_array
-  end
-  integer_array
 end
