@@ -34,3 +34,13 @@ def find_a(array)
     word[0] == "a"
   end
 end
+
+def sum_array(array)
+  integer_array = Array.new
+  array.find_all do |integer|
+    if integer == Integer << interger_array
+    end
+  end
+end
+    
+    
