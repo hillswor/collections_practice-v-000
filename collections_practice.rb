@@ -37,10 +37,8 @@ end
 
 def sum_array(array)
   integer_array = Array.new
-  array.find_all do |integer|
-    if integer == Integer << interger_array
-    end
+  array.each {|index| index.is_a?(Integer)}
+    index << integer_array
   end
+  integer_array
 end
-    
-    
