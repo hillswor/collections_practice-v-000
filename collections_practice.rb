@@ -36,7 +36,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  integer_array = Array.new
-  array.all {|index| index.is_a?(Integer)}
-    index << integer_array
+  sum = 0
+  array.each do |integer|
+    sum += integer
+  end
 end
